@@ -1,0 +1,333 @@
+*{
+    padding: 0 ;
+    margin: 0 auto ;   
+}
+
+body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background: url(imagens/Background\ 8.png) no-repeat center;
+    background-size: cover;
+    color: white;
+    height: 700px;
+    
+}
+
+div #menu{
+    background: rgba(0, 0, 0, 0.152);
+    border: 1px solid rgba(0, 0, 0, 0.152);
+    
+}
+h1{
+    color: white;
+    padding: 20px 50px;
+    text-decoration: none;
+    
+}
+
+ul li{
+    color: white;
+    float: right;
+    list-style: none;
+    position: relative;
+    top: -66px;
+    border-radius: 30px;
+    
+    
+
+}    
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    
+}
+    
+
+ul a:hover{
+    background-color: rgba(255, 255, 255, 0.068);
+    border-radius: 30px;
+    
+} 
+
+ul #atual{
+    background-color: rgba(255, 255, 255, 0.068);
+}
+
+.imagem{
+    width: 85%;
+    border-radius: 400px;
+    position: relative;
+    bottom: 30px;
+    
+    
+  
+   
+}
+
+#logo{
+    display: flex;
+    width: 40%;
+    clear: both;
+    margin: 0, auto;
+    padding: 50px;
+
+   
+   
+}
+
+.git{
+    
+    float: left;
+    width: 20%;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+#inicio{
+    position: relative;
+    right: 30px;
+    top: 40px;
+
+}
+.redes{
+
+    position: relative;
+    left: 55px;
+}
+p{
+    padding-left: 50px;
+    margin: 0;
+}
+
+.dev{
+    font-size: 20px;
+    margin-right: -70px;
+    padding: 5px;
+}
+
+h1{
+    
+    padding-left: 65px;
+    margin: 0;
+
+}
+
+#sobre{
+   
+    margin: 30px ;
+    padding: 100px;
+    background:black;
+    font-size: 20px;
+    border-radius: 50px;
+    border: solid;
+}
+
+.rodape1{
+    width: 60%;
+    text-align: center;
+    clear: both;
+    position: relative;
+    top: 360px ;
+}
+
+.rodape2{
+    text-align: center;
+    position: relative;
+    top: 430px;
+}
+
+.rodape3{
+    position: relative;
+    top: 730px;
+    
+    text-align: center;
+    clear: both;
+}
+
+
+
+
+
+.btn{
+    text-decoration: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color: rgb(13, 0, 0);  
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(242, 235, 235);
+    border-radius: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px ;
+    height: 20px;
+    
+    
+    
+}
+
+
+.btn:hover{
+        background-color: rgba(255, 255, 255, 0.068);
+        color: white;
+        
+       
+}
+
+#skill{
+    width: 96%;
+    padding: 20px;
+    position: absolute;
+    float: left;
+    
+    
+    
+    
+    
+}
+
+.primeiro{
+    background-color:black;
+    color: white;
+    border: solid;
+    float: left;
+    width: 28%;
+    height: 270px;
+    margin: 5px;
+    margin-left: 130px;
+    border-radius: 30px;
+    
+    
+
+    
+}
+.segundo{
+    background-color:black;
+    color: white;
+    border: solid;
+    float: left;
+    width: 28%;
+    height: 270px;
+    margin: 5px;
+    border-radius: 30px;
+}
+.terceiro{
+    background-color:black;
+    color: white;
+    border: solid;
+    float: left;
+    width: 28%;
+    height: 270px;
+    margin: 5px;
+    border-radius: 30px;
+}
+.quarto{
+    background-color:black;
+    color: white;
+    border: solid;
+    float: left;
+    width: 28%;
+    height: 270px;
+    margin: 5px;
+    margin-left: 330px;
+    border-radius: 30px;
+}
+.quinto{
+    background-color:black;
+    color: white;
+    border: solid;
+    float: left;
+    width: 28%;
+    height: 270px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+
+.um{
+    position: relative;
+    left: 150px;
+    top: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: solid 1px;
+    
+}
+
+.dois{
+    
+    position: relative;
+    left: 150px;
+    top: 10px;
+    font-size: 20px;
+    border-bottom: solid 1px;
+}
+
+.tres{
+    
+    position: relative;
+    left: 120px;
+    top: 10px;
+    font-size: 20px;
+    border-bottom: solid 1px;
+}
+
+.quatro{
+    
+    position: relative;
+    left: 100px;
+    top: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: solid 1px;
+}
+
+.cinco{
+    
+    position: relative;
+    left: 120px;
+    top: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: solid 1px;
+}
+
+.t1{
+    position: relative;
+    left: -20px;
+    top: 20px;
+    font-size: 20px;
+}
+
+.t2{
+     position: relative;
+    left: -20px;
+    top: 20px;
+
+    font-size: 20px;
+}
+
+.t3{
+    position: relative;
+   left: -20px;
+   top: 20px;
+   font-size: 20px;
+}
+
+.t4{
+    position: relative;
+   left: -20px;
+   top: 20px;
+   font-size: 20px;
+}
+
+.t5{
+    position: relative;
+   left: -20px;
+   top: 20px;
+   font-size: 20px;
+}
+
